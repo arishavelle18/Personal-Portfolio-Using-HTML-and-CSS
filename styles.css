@@ -60,6 +60,14 @@ body{
    font-size: 3em;
    color: #f4f4f4;
    transform: scale(1);
+   animation-name: myName;
+   animation-iteration-count: infinite;
+   animation-duration: 2s;
+}
+@keyframes myName {
+   50%{
+      color:salmon;
+   }
 }
 
 #name-section h2{
